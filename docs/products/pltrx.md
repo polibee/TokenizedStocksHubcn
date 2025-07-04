@@ -4,7 +4,7 @@ sidebar_position: 47
 
 # PLTRx - Palantir
 
-![PLTRx Logo](/img/tokens/PLTRx.svg)
+![PLTRx Logo](/img/tokens/pltrx.svg)
 
 ## 产品概述
 

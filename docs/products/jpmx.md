@@ -4,7 +4,7 @@ sidebar_position: 32
 
 # JPMx - JPMorgan Chase
 
-![JPMx Logo](/img/tokens/JPMx.svg)
+![JPMx Logo](/img/tokens/jpmx.svg)
 
 ## 产品概述
 

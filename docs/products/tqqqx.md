@@ -4,7 +4,7 @@ sidebar_position: 57
 
 # TQQQx - TQQQ
 
-![TQQQx Logo](/img/tokens/TQQQx.svg)
+![TQQQx Logo](/img/tokens/tqqqx.svg)
 
 ## 产品概述
 

@@ -4,7 +4,7 @@ sidebar_position: 17
 
 # COINx - Coinbase
 
-![COINx Logo](/img/tokens/COINx.svg)
+![COINx Logo](/img/tokens/coinx.svg)
 
 ## 产品概述
 

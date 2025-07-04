@@ -4,7 +4,7 @@ sidebar_position: 7
 
 # AAPLx - Apple
 
-![AAPLx Logo](/img/tokens/AAPLx.svg)
+![AAPLx Logo](/img/tokens/aaplx.svg)
 
 ## 产品概述
 

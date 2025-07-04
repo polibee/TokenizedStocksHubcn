@@ -4,7 +4,7 @@ sidebar_position: 45
 
 # NVDAx - NVIDIA
 
-![NVDAx Logo](/img/tokens/NVDAx.svg)
+![NVDAx Logo](/img/tokens/nvdax.svg)
 
 ## 产品概述
 

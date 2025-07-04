@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # GOOGLx - Alphabet
 
-![GOOGLx Logo](/img/tokens/GOOGLx.svg)
+![GOOGLx Logo](/img/tokens/googlx.svg)
 
 ## 产品概述
 

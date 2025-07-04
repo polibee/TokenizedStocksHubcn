@@ -4,7 +4,7 @@ sidebar_position: 39
 
 # METAx - Meta
 
-![METAx Logo](/img/tokens/METAx.svg)
+![METAx Logo](/img/tokens/metax.svg)
 
 ## 产品概述
 

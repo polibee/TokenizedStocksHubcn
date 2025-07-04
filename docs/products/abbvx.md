@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # ABBVx - AbbVie
 
-![ABBVx Logo](/img/tokens/ABBVx.svg)
+![ABBVx Logo](/img/tokens/abbvx.svg)
 
 ## 产品概述
 

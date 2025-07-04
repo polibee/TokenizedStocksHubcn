@@ -4,7 +4,7 @@ sidebar_position: 13
 
 # CVXx - Chevron
 
-![CVXx Logo](/img/tokens/CVXx.svg)
+![CVXx Logo](/img/tokens/cvxx.svg)
 
 ## 产品概述
 

@@ -4,7 +4,7 @@ sidebar_position: 24
 
 # GMEx - GameStop Corp.
 
-![GMEx Logo](/img/tokens/GMEx.svg)
+![GMEx Logo](/img/tokens/gmex.svg)
 
 ## 产品概述
 

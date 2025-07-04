@@ -4,7 +4,7 @@ sidebar_position: 12
 
 # AVGOx - Broadcom
 
-![AVGOx Logo](/img/tokens/AVGOx.svg)
+![AVGOx Logo](/img/tokens/avgox.svg)
 
 ## 产品概述
 

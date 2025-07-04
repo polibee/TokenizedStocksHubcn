@@ -4,7 +4,7 @@ sidebar_position: 54
 
 # SPYx - SP500
 
-![SPYx Logo](/img/tokens/SPYx.svg)
+![SPYx Logo](/img/tokens/spyx.svg)
 
 ## 产品概述
 

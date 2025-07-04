@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # ABTx - Abbott
 
-![ABTx Logo](/img/tokens/ABTx.svg)
+![ABTx Logo](/img/tokens/abtx.svg)
 
 ## 产品概述
 

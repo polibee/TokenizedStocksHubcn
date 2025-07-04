@@ -4,7 +4,7 @@ sidebar_position: 33
 
 # LINx - Linde
 
-![LINx Logo](/img/tokens/LINx.svg)
+![LINx Logo](/img/tokens/linx.svg)
 
 ## 产品概述
 

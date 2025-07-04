@@ -4,7 +4,7 @@ sidebar_position: 49
 
 # PFEx - Pfizer
 
-![PFEx Logo](/img/tokens/PFEx.svg)
+![PFEx Logo](/img/tokens/pfex.svg)
 
 ## 产品概述
 

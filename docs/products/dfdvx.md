@@ -4,7 +4,7 @@ sidebar_position: 21
 
 # DFDVx - DFDV
 
-![DFDVx Logo](/img/tokens/DFDVx.svg)
+![DFDVx Logo](/img/tokens/dfdvx.svg)
 
 ## 产品概述
 

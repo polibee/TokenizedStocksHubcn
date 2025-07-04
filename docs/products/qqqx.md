@@ -4,7 +4,7 @@ sidebar_position: 42
 
 # QQQx - Nasdaq
 
-![QQQx Logo](/img/tokens/QQQx.svg)
+![QQQx Logo](/img/tokens/qqqx.svg)
 
 ## 产品概述
 

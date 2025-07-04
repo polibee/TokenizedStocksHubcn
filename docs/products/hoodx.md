@@ -4,7 +4,7 @@ sidebar_position: 52
 
 # HOODx - Robinhood
 
-![HOODx Logo](/img/tokens/HOODx.svg)
+![HOODx Logo](/img/tokens/hoodx.svg)
 
 ## 产品概述
 

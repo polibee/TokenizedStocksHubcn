@@ -4,7 +4,7 @@ sidebar_position: 53
 
 # CRMx - Salesforce
 
-![CRMx Logo](/img/tokens/CRMx.svg)
+![CRMx Logo](/img/tokens/crmx.svg)
 
 ## 产品概述
 

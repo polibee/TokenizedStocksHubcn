@@ -4,7 +4,7 @@ sidebar_position: 27
 
 # HDx - Home Depot
 
-![HDx Logo](/img/tokens/HDx.svg)
+![HDx Logo](/img/tokens/hdx.svg)
 
 ## 产品概述
 

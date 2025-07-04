@@ -4,7 +4,7 @@ sidebar_position: 11
 
 # BRK.Bx - Berkshire Hathaway
 
-![BRK.Bx Logo](/img/tokens/BRK.Bx.svg)
+![BRK.Bx Logo](/img/tokens/brk.bx.svg)
 
 ## 产品概述
 

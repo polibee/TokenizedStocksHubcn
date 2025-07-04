@@ -4,7 +4,7 @@ sidebar_position: 46
 
 # ORCLx - Oracle
 
-![ORCLx Logo](/img/tokens/ORCLx.svg)
+![ORCLx Logo](/img/tokens/orclx.svg)
 
 ## 产品概述
 

@@ -4,7 +4,7 @@ sidebar_position: 9
 
 # AZNx - AstraZeneca
 
-![AZNx Logo](/img/tokens/AZNx.svg)
+![AZNx Logo](/img/tokens/aznx.svg)
 
 ## 产品概述
 

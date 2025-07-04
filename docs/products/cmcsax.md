@@ -4,7 +4,7 @@ sidebar_position: 18
 
 # CMCSAx - Comcast
 
-![CMCSAx Logo](/img/tokens/CMCSAx.svg)
+![CMCSAx Logo](/img/tokens/cmcsax.svg)
 
 ## 产品概述
 

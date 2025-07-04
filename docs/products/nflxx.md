@@ -4,7 +4,7 @@ sidebar_position: 43
 
 # NFLXx - Netflix
 
-![NFLXx Logo](/img/tokens/NFLXx.svg)
+![NFLXx Logo](/img/tokens/nflxx.svg)
 
 ## 产品概述
 

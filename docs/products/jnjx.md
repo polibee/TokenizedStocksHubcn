@@ -4,7 +4,7 @@ sidebar_position: 31
 
 # JNJx - Johnson & Johnson
 
-![JNJx Logo](/img/tokens/JNJx.svg)
+![JNJx Logo](/img/tokens/jnjx.svg)
 
 ## 产品概述
 

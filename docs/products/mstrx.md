@@ -4,7 +4,7 @@ sidebar_position: 41
 
 # MSTRx - MicroStrategy
 
-![MSTRx Logo](/img/tokens/MSTRx.svg)
+![MSTRx Logo](/img/tokens/mstrx.svg)
 
 ## 产品概述
 

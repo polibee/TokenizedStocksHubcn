@@ -4,7 +4,7 @@ sidebar_position: 15
 
 # CSCOx - Cisco
 
-![CSCOx Logo](/img/tokens/CSCOx.svg)
+![CSCOx Logo](/img/tokens/cscox.svg)
 
 ## 产品概述
 

@@ -4,7 +4,7 @@ sidebar_position: 14
 
 # CRCLx - Circle
 
-![CRCLx Logo](/img/tokens/CRCLx.svg)
+![CRCLx Logo](/img/tokens/crclx.svg)
 
 ## 产品概述
 

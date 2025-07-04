@@ -4,7 +4,7 @@ sidebar_position: 58
 
 # UNHx - UnitedHealth
 
-![UNHx Logo](/img/tokens/UNHx.svg)
+![UNHx Logo](/img/tokens/unhx.svg)
 
 ## 产品概述
 

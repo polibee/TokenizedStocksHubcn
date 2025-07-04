@@ -4,7 +4,7 @@ sidebar_position: 61
 
 # WMTx - Walmart
 
-![WMTx Logo](/img/tokens/WMTx.svg)
+![WMTx Logo](/img/tokens/wmtx.svg)
 
 ## 产品概述
 

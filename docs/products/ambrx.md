@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # AMBRx - Amber
 
-![AMBRx Logo](/img/tokens/AMBRx.svg)
+![AMBRx Logo](/img/tokens/ambrx.svg)
 
 ## 产品概述
 

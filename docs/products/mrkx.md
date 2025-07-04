@@ -4,7 +4,7 @@ sidebar_position: 38
 
 # MRKx - Merck
 
-![MRKx Logo](/img/tokens/MRKx.svg)
+![MRKx Logo](/img/tokens/mrkx.svg)
 
 ## 产品概述
 

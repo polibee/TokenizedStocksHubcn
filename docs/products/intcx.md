@@ -4,7 +4,7 @@ sidebar_position: 29
 
 # INTCx - Intel
 
-![INTCx Logo](/img/tokens/INTCx.svg)
+![INTCx Logo](/img/tokens/intcx.svg)
 
 ## 产品概述
 

@@ -4,7 +4,7 @@ sidebar_position: 35
 
 # MAx - Mastercard
 
-![MAx Logo](/img/tokens/MAx.svg)
+![MAx Logo](/img/tokens/max.svg)
 
 ## 产品概述
 

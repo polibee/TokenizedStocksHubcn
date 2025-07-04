@@ -17,3 +17,109 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+# 代币化股票相关标签
+高级策略:
+  label: 高级策略
+  permalink: /advanced-strategy
+  description: 高级交易策略相关内容
+
+套利:
+  label: 套利
+  permalink: /arbitrage
+  description: 套利交易策略
+
+流动性挖矿:
+  label: 流动性挖矿
+  permalink: /liquidity-mining
+  description: 流动性挖矿相关内容
+
+期权:
+  label: 期权
+  permalink: /options
+  description: 期权交易相关内容
+
+杠杆:
+  label: 杠杆
+  permalink: /leverage
+  description: 杠杆交易相关内容
+
+DeFi:
+  label: DeFi
+  permalink: /defi
+  description: 去中心化金融相关内容
+
+教程:
+  label: 教程
+  permalink: /tutorial
+  description: 教程相关内容
+
+代币化股票:
+  label: 代币化股票
+  permalink: /tokenized-stocks
+  description: 代币化股票相关内容
+
+入门指南:
+  label: 入门指南
+  permalink: /getting-started
+  description: 入门指南相关内容
+
+交易:
+  label: 交易
+  permalink: /trading
+  description: 交易相关内容
+
+基础知识:
+  label: 基础知识
+  permalink: /basics
+  description: 基础知识相关内容
+
+区块链:
+  label: 区块链
+  permalink: /blockchain
+  description: 区块链相关内容
+
+入门教程:
+  label: 入门教程
+  permalink: /beginner-tutorial
+  description: 入门教程相关内容
+
+CEX:
+  label: CEX
+  permalink: /cex
+  description: 中心化交易所相关内容
+
+中心化交易所:
+  label: 中心化交易所
+  permalink: /centralized-exchange
+  description: 中心化交易所相关内容
+
+Kraken:
+  label: Kraken
+  permalink: /kraken
+  description: Kraken交易所相关内容
+
+代币化股票交易:
+  label: 代币化股票交易
+  permalink: /tokenized-stock-trading
+  description: 代币化股票交易相关内容
+
+DEX:
+  label: DEX
+  permalink: /dex
+  description: 去中心化交易所相关内容
+
+去中心化交易所:
+  label: 去中心化交易所
+  permalink: /decentralized-exchange
+  description: 去中心化交易所相关内容
+
+Uniswap:
+  label: Uniswap
+  permalink: /uniswap
+  description: Uniswap相关内容
+
+Jupiter:
+  label: Jupiter
+  permalink: /jupiter
+  description: Jupiter相关内容

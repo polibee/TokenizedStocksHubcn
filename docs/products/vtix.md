@@ -4,7 +4,7 @@ sidebar_position: 59
 
 # VTIx - Vanguard
 
-![VTIx Logo](/img/tokens/VTIx.svg)
+![VTIx Logo](/img/tokens/vtix.svg)
 
 ## 产品概述
 

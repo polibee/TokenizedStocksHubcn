@@ -4,7 +4,7 @@ sidebar_position: 25
 
 # GLDx - Gold
 
-![GLDx Logo](/img/tokens/GLDx.svg)
+![GLDx Logo](/img/tokens/gldx.svg)
 
 ## 产品概述
 

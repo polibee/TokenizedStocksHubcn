@@ -4,7 +4,7 @@ sidebar_position: 23
 
 # XOMx - Exxon Mobil
 
-![XOMx Logo](/img/tokens/XOMx.svg)
+![XOMx Logo](/img/tokens/xomx.svg)
 
 ## 产品概述
 

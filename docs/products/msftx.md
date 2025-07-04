@@ -4,7 +4,7 @@ sidebar_position: 40
 
 # MSFTx - Microsoft
 
-![MSFTx Logo](/img/tokens/MSFTx.svg)
+![MSFTx Logo](/img/tokens/msftx.svg)
 
 ## 产品概述
 

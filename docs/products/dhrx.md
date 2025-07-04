@@ -4,7 +4,7 @@ sidebar_position: 20
 
 # DHRx - Danaher
 
-![DHRx Logo](/img/tokens/DHRx.svg)
+![DHRx Logo](/img/tokens/dhrx.svg)
 
 ## 产品概述
 

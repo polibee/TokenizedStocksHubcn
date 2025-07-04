@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # ACNx - Accenture
 
-![ACNx Logo](/img/tokens/ACNx.svg)
+![ACNx Logo](/img/tokens/acnx.svg)
 
 ## 产品概述
 

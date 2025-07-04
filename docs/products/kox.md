@@ -4,7 +4,7 @@ sidebar_position: 16
 
 # KOx - Coca-Cola
 
-![KOx Logo](/img/tokens/KOx.svg)
+![KOx Logo](/img/tokens/kox.svg)
 
 ## 产品概述
 

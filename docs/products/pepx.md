@@ -4,7 +4,7 @@ sidebar_position: 48
 
 # PEPx - PepsiCo
 
-![PEPx Logo](/img/tokens/PEPx.svg)
+![PEPx Logo](/img/tokens/pepx.svg)
 
 ## 产品概述
 

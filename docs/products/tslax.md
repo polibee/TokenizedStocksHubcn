@@ -4,7 +4,7 @@ sidebar_position: 55
 
 # TSLAx - Tesla
 
-![TSLAx Logo](/img/tokens/TSLAx.svg)
+![TSLAx Logo](/img/tokens/tslax.svg)
 
 ## 产品概述
 

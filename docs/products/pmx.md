@@ -4,7 +4,7 @@ sidebar_position: 50
 
 # PMx - Philip Morris
 
-![PMx Logo](/img/tokens/PMx.svg)
+![PMx Logo](/img/tokens/pmx.svg)
 
 ## 产品概述
 

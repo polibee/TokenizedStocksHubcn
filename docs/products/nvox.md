@@ -4,7 +4,7 @@ sidebar_position: 44
 
 # NVOx - Novo Nordisk
 
-![NVOx Logo](/img/tokens/NVOx.svg)
+![NVOx Logo](/img/tokens/nvox.svg)
 
 ## 产品概述
 

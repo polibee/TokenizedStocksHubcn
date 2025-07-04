@@ -4,7 +4,7 @@ sidebar_position: 8
 
 # APPx - AppLovin
 
-![APPx Logo](/img/tokens/APPx.svg)
+![APPx Logo](/img/tokens/appx.svg)
 
 ## 产品概述
 

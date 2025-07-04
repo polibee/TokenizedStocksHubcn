@@ -4,7 +4,7 @@ sidebar_position: 22
 
 # LLYx - Eli Lilly
 
-![LLYx Logo](/img/tokens/LLYx.svg)
+![LLYx Logo](/img/tokens/llyx.svg)
 
 ## 产品概述
 

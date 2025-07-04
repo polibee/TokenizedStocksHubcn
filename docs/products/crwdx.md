@@ -4,7 +4,7 @@ sidebar_position: 19
 
 # CRWDx - CrowdStrike
 
-![CRWDx Logo](/img/tokens/CRWDx.svg)
+![CRWDx Logo](/img/tokens/crwdx.svg)
 
 ## 产品概述
 

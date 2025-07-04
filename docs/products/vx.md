@@ -4,7 +4,7 @@ sidebar_position: 60
 
 # Vx - Visa
 
-![Vx Logo](/img/tokens/Vx.svg)
+![Vx Logo](/img/tokens/vx.svg)
 
 ## 产品概述
 

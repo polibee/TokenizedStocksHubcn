@@ -4,7 +4,7 @@ sidebar_position: 56
 
 # TMOx - Thermo Fisher
 
-![TMOx Logo](/img/tokens/TMOx.svg)
+![TMOx Logo](/img/tokens/tmox.svg)
 
 ## 产品概述
 

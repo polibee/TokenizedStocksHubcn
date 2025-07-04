@@ -4,7 +4,7 @@ sidebar_position: 10
 
 # BACx - Bank of America
 
-![BACx Logo](/img/tokens/BACx.svg)
+![BACx Logo](/img/tokens/bacx.svg)
 
 ## 产品概述
 

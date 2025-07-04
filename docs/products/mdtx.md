@@ -4,7 +4,7 @@ sidebar_position: 37
 
 # MDTx - Medtronic
 
-![MDTx Logo](/img/tokens/MDTx.svg)
+![MDTx Logo](/img/tokens/mdtx.svg)
 
 ## 产品概述
 

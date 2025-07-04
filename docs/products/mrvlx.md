@@ -4,7 +4,7 @@ sidebar_position: 34
 
 # MRVLx - Marvell
 
-![MRVLx Logo](/img/tokens/MRVLx.svg)
+![MRVLx Logo](/img/tokens/mrvlx.svg)
 
 ## 产品概述
 

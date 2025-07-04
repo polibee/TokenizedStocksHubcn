@@ -4,7 +4,7 @@ sidebar_position: 28
 
 # HONx - Honeywell
 
-![HONx Logo](/img/tokens/HONx.svg)
+![HONx Logo](/img/tokens/honx.svg)
 
 ## 产品概述
 

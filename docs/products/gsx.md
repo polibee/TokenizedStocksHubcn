@@ -4,7 +4,7 @@ sidebar_position: 26
 
 # GSx - Goldman Sachs
 
-![GSx Logo](/img/tokens/GSx.svg)
+![GSx Logo](/img/tokens/gsx.svg)
 
 ## 产品概述
 

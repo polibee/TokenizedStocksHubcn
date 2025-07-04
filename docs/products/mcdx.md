@@ -4,7 +4,7 @@ sidebar_position: 36
 
 # MCDx - McDonald's
 
-![MCDx Logo](/img/tokens/MCDx.svg)
+![MCDx Logo](/img/tokens/mcdx.svg)
 
 ## 产品概述
 

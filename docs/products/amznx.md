@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # AMZNx - Amazon
 
-![AMZNx Logo](/img/tokens/AMZNx.svg)
+![AMZNx Logo](/img/tokens/amznx.svg)
 
 ## 产品概述
 

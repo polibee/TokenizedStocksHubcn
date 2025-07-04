@@ -4,7 +4,7 @@ sidebar_position: 51
 
 # PGx - Procter & Gamble
 
-![PGx Logo](/img/tokens/PGx.svg)
+![PGx Logo](/img/tokens/pgx.svg)
 
 ## 产品概述
 

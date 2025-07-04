@@ -4,7 +4,7 @@ sidebar_position: 30
 
 # IBMx - International Business Machines x
 
-![IBMx Logo](/img/tokens/IBMx.svg)
+![IBMx Logo](/img/tokens/ibmx.svg)
 
 ## 产品概述
 
