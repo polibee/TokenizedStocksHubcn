@@ -4,6 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
+import SEOHead from '../components/SEO/SEOHead';
 
 import { ReactNode } from 'react';
 
@@ -498,17 +499,26 @@ function CommunitySection() {
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <Layout
-      title={`${siteConfig.title} - 代币化股票交易平台`}
-      description="探索代币化美股交易世界，24/7交易传统股票，享受DeFi便利。支持苹果、特斯拉、微软等知名股票的代币化版本。">
-      <HeroSection />
-      <main>
-        <TokenizedStocksSection />
-        <PlatformComparisonSection />
-        <TutorialsSection />
-        <FAQSection />
-        <CommunitySection />
-      </main>
-    </Layout>
+    <>
+      <SEOHead
+        title="代币化股票交易平台"
+        description="探索代币化美股交易世界，24/7交易传统股票，享受DeFi便利。支持苹果、特斯拉、微软等知名股票的代币化版本。"
+        keywords="代币化股票,tokenized stocks,数字股票,股票代币,区块链股票,DeFi股票,去中心化金融,股票交易,投资理财,苹果股票,特斯拉股票,微软股票"
+        type="website"
+        url="/"
+      />
+      <Layout
+        title={`${siteConfig.title} - 代币化股票交易平台`}
+        description="探索代币化美股交易世界，24/7交易传统股票，享受DeFi便利。支持苹果、特斯拉、微软等知名股票的代币化版本。">
+        <HeroSection />
+        <main>
+          <TokenizedStocksSection />
+          <PlatformComparisonSection />
+          <TutorialsSection />
+          <FAQSection />
+          <CommunitySection />
+        </main>
+      </Layout>
+    </>
   );
 }

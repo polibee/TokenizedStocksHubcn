@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+
+# Allow important pages
+Allow: /products-overview
+Allow: /platforms-compare
+Allow: /tutorials
+Allow: /docs/
+Allow: /compliance
+Allow: /blog/
+
+# Sitemap location
+Sitemap: https://polibee.github.io/TokenizedStocksHubcn/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1

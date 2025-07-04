@@ -5,9 +5,23 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Tokenized Stocks Hub',
-  tagline: 'Your Gateway to Tokenized Stock Trading',
+  title: 'Tokenized Stocks Hub - 代币化股票交易平台',
+  tagline: '您的代币化股票交易门户 - 安全、便捷的数字化股票投资平台',
   favicon: 'img/favicon.ico',
+  
+  // SEO metadata
+  metadata: [
+    {name: 'keywords', content: '代币化股票,tokenized stocks,数字股票,股票代币,区块链股票,DeFi股票,去中心化金融,股票交易,投资理财'},
+    {name: 'description', content: 'Tokenized Stocks Hub是专业的代币化股票交易平台，提供安全便捷的数字化股票投资服务。了解代币化股票交易、平台对比、投资教程等专业内容。'},
+    {name: 'author', content: 'Tokenized Stocks Hub'},
+    {name: 'robots', content: 'index,follow'},
+    {property: 'og:type', content: 'website'},
+    {property: 'og:site_name', content: 'Tokenized Stocks Hub'},
+    {property: 'twitter:card', content: 'summary_large_image'},
+    {property: 'twitter:site', content: '@TokenizedStocks'},
+    {name: 'theme-color', content: '#2e8555'},
+    {name: 'msapplication-TileColor', content: '#2e8555'},
+  ],
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -18,7 +32,7 @@ const config: Config = {
   url: 'https://polibee.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: process.env.NODE_ENV === 'production' ? '/' : '/',
+  baseUrl: process.env.NODE_ENV === 'production' ? '/TokenizedStocksHubcn/' : '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -32,8 +46,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
   },
 
   presets: [
@@ -71,6 +85,18 @@ const config: Config = {
           anonymizeIP: true,
         },
       } satisfies Preset.Options,
+    ],
+  ],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-sitemap',
+      {
+        changefreq: 'weekly',
+        priority: 0.5,
+        ignorePatterns: ['/tags/**'],
+        filename: 'sitemap.xml',
+      },
     ],
   ],
 

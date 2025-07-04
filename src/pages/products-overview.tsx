@@ -3,6 +3,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
+import SEOHead from '../components/SEO/SEOHead';
 
 import styles from './index.module.css';
 
@@ -114,10 +115,18 @@ function ProductsOverviewPage() {
   }, [searchTerm, selectedCategory]);
 
   return (
-    <Layout
-      title="代币化股票概览"
-      description="探索所有可用的代币化股票产品">
-      <main>
+    <>
+      <SEOHead
+        title="代币化股票概览"
+        description="探索所有可用的代币化股票产品，包括苹果、特斯拉、微软等知名股票的代币化版本。24/7交易，享受DeFi便利。"
+        keywords="代币化股票概览,tokenized stocks,数字股票列表,股票代币,区块链股票,苹果股票代币,特斯拉股票代币,微软股票代币,AAPLX,TSLAX,MSFTX"
+        type="website"
+        url="/products-overview"
+      />
+      <Layout
+        title="代币化股票概览"
+        description="探索所有可用的代币化股票产品">
+        <main>
         {/* Hero Section */}
         <section className={clsx('hero hero--primary', styles.heroBanner)}>
           <div className="container">
@@ -270,7 +279,8 @@ function ProductsOverviewPage() {
           </div>
         </section>
       </main>
-    </Layout>
+      </Layout>
+    </>
   );
 }
 
