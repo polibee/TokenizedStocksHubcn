@@ -38,7 +38,7 @@ function getDynamicTutorialsData(): TutorialData[] {
 }
 
 // 获取所有教程
-export function getAllTutorials(): TutorialData[] {
+export async function getAllTutorials(): Promise<TutorialData[]> {
   try {
     // 优先使用动态生成的教程数据
     const dynamicTutorials = getDynamicTutorialsData();

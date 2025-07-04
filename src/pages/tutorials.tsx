@@ -244,40 +244,46 @@ function TutorialsGrid({ tutorials }: { tutorials: any[] }) {
 
 
 
-// 动态获取教程数据
-function getTutorialsData(): TutorialData[] {
-  try {
-    return getAllTutorials();
-  } catch (error) {
-    console.warn('Failed to load tutorials:', error);
-    return [];
-  }
-}
-
 export default function TutorialsPage(): ReactNode {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [searchTerm, setSearchTerm] = useState('');
   const [sortBy, setSortBy] = useState('date-desc');
+  const [tutorialsData, setTutorialsData] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
 
-  // 使用动态教程数据
-  const tutorialsData = useMemo(() => {
-    return getTutorialsData().map(tutorial => {
-        const tutorialDate = new Date(tutorial.date);
-        return {
-           id: tutorial.id,
-           title: tutorial.title,
-           description: tutorial.description || '',
-           category: tutorial.category,
-          readTime: `${tutorial.readTime} min`,
-           lastUpdated: tutorialDate.toLocaleDateString('zh-CN'),
-          thumbnail: tutorial.thumbnail || '/img/tutorials/default.svg',
-           url: tutorial.url,
-          difficulty: tutorial.difficulty,
-           tags: tutorial.tags,
-          date: tutorialDate
-        };
-      })
-      .sort((a, b) => b.date.getTime() - a.date.getTime());
+  // 加载教程数据
+  React.useEffect(() => {
+    const loadTutorials = async () => {
+      try {
+        setLoading(true);
+        const tutorials = await getAllTutorials();
+        const processedTutorials = tutorials.map(tutorial => {
+          const tutorialDate = new Date(tutorial.date);
+          return {
+            id: tutorial.id,
+            title: tutorial.title,
+            description: tutorial.description || '',
+            category: tutorial.category,
+            readTime: `${tutorial.readTime} min`,
+            lastUpdated: tutorialDate.toLocaleDateString('zh-CN'),
+            thumbnail: tutorial.thumbnail || '/img/tutorials/default.svg',
+            url: tutorial.url,
+            difficulty: tutorial.difficulty,
+            tags: tutorial.tags,
+            date: tutorialDate
+          };
+        }).sort((a, b) => b.date.getTime() - a.date.getTime());
+        
+        setTutorialsData(processedTutorials);
+      } catch (error) {
+        console.warn('Failed to load tutorials:', error);
+        setTutorialsData([]);
+      } finally {
+        setLoading(false);
+      }
+    };
+    
+    loadTutorials();
   }, []);
 
   // 更新分类数据以包含计数
@@ -312,6 +318,25 @@ export default function TutorialsPage(): ReactNode {
         return filtered;
     }
   }, [tutorialsData, selectedCategory, searchTerm, sortBy]);
+
+  if (loading) {
+    return (
+      <Layout
+        title="学习教程"
+        description="从零开始学习代币化股票交易，掌握各种交易策略和技巧">
+        <HeroSection />
+        <main>
+          <section className="container margin-vert--lg">
+            <div className={styles.emptyState}>
+              <div className={styles.emptyIcon}>⏳</div>
+              <h3>加载中...</h3>
+              <p>正在加载教程数据，请稍候</p>
+            </div>
+          </section>
+        </main>
+      </Layout>
+    );
+  }
 
   return (
     <Layout
