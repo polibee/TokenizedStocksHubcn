@@ -341,7 +341,7 @@ function ServiceProviders({ company }: { company: CompanyData }) {
             <div className="col col--12 text--center">
               <Link
                 className="button button--secondary button--lg"
-                to="/docs/compliance#-service-providers">
+                to="/docs/compliance#服务提供商">
                 查看完整的服务提供商列表 →
               </Link>
             </div>

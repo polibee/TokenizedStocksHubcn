@@ -257,7 +257,7 @@ function ProductsOverviewPage() {
               <div className={styles.buttons}>
                 <Link
                   className="button button--primary button--lg"
-                  to="/docs/tutorials/intro">
+                  to="/tutorials">
                   📚 学习教程
                 </Link>
                 <Link

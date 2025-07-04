@@ -139,12 +139,61 @@
   color: var(--ifm-color-emphasis-800);
 }
 
+/* Filter Row */
+.filterRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
 /* Filter Buttons */
 .filterButtons {
   display: flex;
   justify-content: center;
   gap: 0.75rem;
   flex-wrap: wrap;
+  flex: 1;
+}
+
+/* Sort Container */
+.sortContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.sortLabel {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-700);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.sortSelect {
+  padding: 0.5rem 0.75rem;
+  border: 2px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+  min-width: 120px;
+}
+
+.sortSelect:focus {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 0 2px var(--ifm-color-primary-lightest);
+}
+
+.sortSelect:hover {
+  border-color: var(--ifm-color-primary);
 }
 
 .filterButton {
@@ -216,6 +265,12 @@
     padding: 0 1rem;
   }
   
+  .filterRow {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: stretch;
+  }
+  
   .filterButtons {
     justify-content: flex-start;
     overflow-x: auto;
@@ -233,6 +288,15 @@
     flex-shrink: 0;
     padding: 0.6rem 1.2rem;
     font-size: 0.85rem;
+  }
+  
+  .sortContainer {
+    justify-content: center;
+    padding: 0 1rem;
+  }
+  
+  .sortSelect {
+    min-width: 150px;
   }
 }
 

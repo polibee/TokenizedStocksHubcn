@@ -18,7 +18,7 @@ const config: Config = {
   url: 'https://polibee.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/TokenizedStocksHubcn/',
+  baseUrl: process.env.NODE_ENV === 'production' ? '/' : '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -66,6 +66,10 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        gtag: {
+          trackingID: 'G-BY66HR5MTV', // 请替换为您的Google Analytics测量ID
+          anonymizeIP: true,
+        },
       } satisfies Preset.Options,
     ],
   ],
@@ -73,6 +77,8 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+
+
     navbar: {
       title: 'Tokenized Stocks Hub',
       logo: {
@@ -161,7 +167,7 @@ const config: Config = {
           title: '社区',
           items: [
             {
-              label: 'Telegram',
+              label: '邮箱：AdamDavisme#outlook.com',
               href: '#',
             },
             {
@@ -199,6 +205,16 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+  
+  // 自定义头部脚本
+  scripts: [
+    // Google AdSense脚本
+    {
+      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8597282005680903',
+      async: true,
+      crossorigin: 'anonymous',
+    },
+  ],
 };
 
 export default config;

@@ -1,13 +1,52 @@
 {
   "tutorials": [
     {
+      "id": "trading/gate-xstock-list",
+      "title": "Gate上线多个链上美股交易对支持现货和1-10倍合约",
+      "description": "2025年7月3日，Gate 正式宣布推出xStocks 专区，同时支持现货交易、永续合约交易及 Alpha 交易。",
+      "category": "trading",
+      "difficulty": "中级",
+      "readTime": 10,
+      "date": "2025-07-04T02:31:02.574Z",
+      "thumbnail": "/img/tutorials/full-gate-io-logo.svg",
+      "url": "/blog/gate-xstock-list",
+      "tags": [
+        "CEX",
+        "中心化交易所",
+        "Kraken",
+        "代币化股票交易",
+        "教程"
+      ],
+      "slug": "gate-xstock-list",
+      "filePath": "trading/gate-xstock-list.md"
+    },
+    {
+      "id": "tutorial/tutorial-intro",
+      "title": "代币化股票交易教程介绍",
+      "description": "从零开始学习代币化股票交易，无论您是完全的新手还是有经验的交易者，这里都有适合您的学习内容。",
+      "category": "tutorial",
+      "difficulty": "初级",
+      "readTime": 8,
+      "date": "2025-07-02T09:15:16.686Z",
+      "thumbnail": "/img/tutorials/intro.svg",
+      "url": "/blog/tutorial-intro",
+      "tags": [
+        "教程",
+        "代币化股票",
+        "入门指南",
+        "交易"
+      ],
+      "slug": "tutorial-intro",
+      "filePath": "tutorial/tutorial-intro.md"
+    },
+    {
       "id": "trading/tutorial-dex",
       "title": "去中心化交易所教程",
       "description": "在去中心化交易所交易代币化股票的完整指南，涵盖Uniswap、Jupiter等主流DEX平台。",
       "category": "trading",
       "difficulty": "中级",
       "readTime": 18,
-      "date": "2025-07-04T06:23:18.931Z",
+      "date": "2025-07-02T09:15:16.683Z",
       "thumbnail": "/img/tutorials/dex.svg",
       "url": "/blog/tutorial-dex",
       "tags": [
@@ -22,52 +61,13 @@
       "filePath": "trading/tutorial-dex.md"
     },
     {
-      "id": "tutorial/tutorial-intro",
-      "title": "代币化股票交易教程介绍",
-      "description": "从零开始学习代币化股票交易，无论您是完全的新手还是有经验的交易者，这里都有适合您的学习内容。",
-      "category": "tutorial",
-      "difficulty": "初级",
-      "readTime": 8,
-      "date": "2025-07-04T06:23:18.931Z",
-      "thumbnail": "/img/tutorials/intro.svg",
-      "url": "/blog/tutorial-intro",
-      "tags": [
-        "教程",
-        "代币化股票",
-        "入门指南",
-        "交易"
-      ],
-      "slug": "tutorial-intro",
-      "filePath": "tutorial/tutorial-intro.md"
-    },
-    {
-      "id": "trading/gate-xstock-list",
-      "title": "Gate上线多个链上美股交易对支持现货和1-10倍合约",
-      "description": "2025年7月3日，Gate 正式宣布推出xStocks 专区，同时支持现货交易、永续合约交易及 Alpha 交易。",
-      "category": "trading",
-      "difficulty": "中级",
-      "readTime": 10,
-      "date": "2025-07-04T06:23:18.930Z",
-      "thumbnail": "/img/tutorials/full-gate-io-logo.svg",
-      "url": "/blog/gate-xstock-list",
-      "tags": [
-        "CEX",
-        "中心化交易所",
-        "Kraken",
-        "代币化股票交易",
-        "教程"
-      ],
-      "slug": "gate-xstock-list",
-      "filePath": "trading/gate-xstock-list.md"
-    },
-    {
       "id": "trading/tutorial-cex",
       "title": "中心化交易所教程",
       "description": "在中心化交易所交易代币化股票的完整指南，以Kraken为例详细介绍整个交易流程。",
       "category": "trading",
       "difficulty": "中级",
       "readTime": 17,
-      "date": "2025-07-04T06:23:18.930Z",
+      "date": "2025-07-02T09:15:16.680Z",
       "thumbnail": "/img/tutorials/cex.svg",
       "url": "/blog/tutorial-cex",
       "tags": [
@@ -87,7 +87,7 @@
       "category": "basics",
       "difficulty": "入门",
       "readTime": 14,
-      "date": "2025-07-04T06:23:18.929Z",
+      "date": "2025-07-02T09:15:16.675Z",
       "thumbnail": "/img/tutorials/basics.svg",
       "url": "/blog/tutorial-basics",
       "tags": [
@@ -107,7 +107,7 @@
       "category": "advanced",
       "difficulty": "高级",
       "readTime": 41,
-      "date": "2025-07-04T06:23:18.928Z",
+      "date": "2025-07-02T09:15:16.670Z",
       "thumbnail": "/img/tutorials/advanced.svg",
       "url": "/blog/tutorial-advanced",
       "tags": [
@@ -130,6 +130,6 @@
       "basics": 1,
       "advanced": 1
     },
-    "lastUpdated": "2025-07-04T06:23:18.931Z"
+    "lastUpdated": "2025-07-04T07:56:43.113Z"
   }
 }

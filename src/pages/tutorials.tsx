@@ -59,12 +59,14 @@ function HeroSection() {
   );
 }
 
-function CategoryFilter({ activeCategory, onCategoryChange, searchTerm, onSearchChange, categoriesWithCount }: {
+function CategoryFilter({ activeCategory, onCategoryChange, searchTerm, onSearchChange, categoriesWithCount, sortBy, onSortChange }: {
   activeCategory: string;
   onCategoryChange: (category: string) => void;
   searchTerm: string;
   onSearchChange: (term: string) => void;
   categoriesWithCount: Array<{id: string, name: string, icon: string, count: number}>;
+  sortBy: string;
+  onSortChange: (sort: string) => void;
 }) {
   return (
     <section className={styles.categoryFilter}>
@@ -93,22 +95,39 @@ function CategoryFilter({ activeCategory, onCategoryChange, searchTerm, onSearch
           </div>
         </div>
         
-        {/* 分类过滤器 */}
-        <div className={styles.filterButtons}>
-          {categoriesWithCount.map((category) => (
-            <button
-              key={category.id}
-              className={clsx(
-                styles.filterButton,
-                activeCategory === category.id && styles.filterButtonActive
-              )}
-              onClick={() => onCategoryChange(category.id)}
+        {/* 分类过滤器和排序 */}
+        <div className={styles.filterRow}>
+          <div className={styles.filterButtons}>
+            {categoriesWithCount.map((category) => (
+              <button
+                key={category.id}
+                className={clsx(
+                  styles.filterButton,
+                  activeCategory === category.id && styles.filterButtonActive
+                )}
+                onClick={() => onCategoryChange(category.id)}
+              >
+                <span className={styles.categoryIcon}>{category.icon}</span>
+                <span className={styles.categoryName}>{category.name}</span>
+                <span className={styles.categoryCount}>({category.count})</span>
+              </button>
+            ))}
+          </div>
+          
+          {/* 排序选择器 */}
+          <div className={styles.sortContainer}>
+            <label className={styles.sortLabel}>排序方式：</label>
+            <select 
+              value={sortBy} 
+              onChange={(e) => onSortChange(e.target.value)}
+              className={styles.sortSelect}
             >
-              <span className={styles.categoryIcon}>{category.icon}</span>
-              <span className={styles.categoryName}>{category.name}</span>
-              <span className={styles.categoryCount}>({category.count})</span>
-            </button>
-          ))}
+              <option value="date-desc">最新发布</option>
+              <option value="date-asc">最早发布</option>
+              <option value="title-asc">标题 A-Z</option>
+              <option value="title-desc">标题 Z-A</option>
+            </select>
+          </div>
         </div>
       </div>
     </section>
@@ -238,6 +257,7 @@ function getTutorialsData(): TutorialData[] {
 export default function TutorialsPage(): ReactNode {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [searchTerm, setSearchTerm] = useState('');
+  const [sortBy, setSortBy] = useState('date-desc');
 
   // 使用动态教程数据
   const tutorialsData = useMemo(() => {
@@ -268,14 +288,30 @@ export default function TutorialsPage(): ReactNode {
     }));
   }, [tutorialsData]);
 
-  // 过滤教程
-  const filteredTutorials = tutorialsData.filter(tutorial => {
-    const matchesCategory = selectedCategory === 'all' || tutorial.category === selectedCategory;
-    const matchesSearch = tutorial.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                         tutorial.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                         tutorial.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase()));
-    return matchesCategory && matchesSearch;
-  });
+  // 过滤和排序教程
+  const filteredTutorials = useMemo(() => {
+    let filtered = tutorialsData.filter(tutorial => {
+      const matchesCategory = selectedCategory === 'all' || tutorial.category === selectedCategory;
+      const matchesSearch = tutorial.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                           tutorial.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                           tutorial.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase()));
+      return matchesCategory && matchesSearch;
+    });
+
+    // 应用排序
+    switch (sortBy) {
+      case 'date-desc':
+        return filtered.sort((a, b) => b.date.getTime() - a.date.getTime());
+      case 'date-asc':
+        return filtered.sort((a, b) => a.date.getTime() - b.date.getTime());
+      case 'title-asc':
+        return filtered.sort((a, b) => a.title.localeCompare(b.title, 'zh-CN'));
+      case 'title-desc':
+        return filtered.sort((a, b) => b.title.localeCompare(a.title, 'zh-CN'));
+      default:
+        return filtered;
+    }
+  }, [tutorialsData, selectedCategory, searchTerm, sortBy]);
 
   return (
     <Layout
@@ -288,6 +324,8 @@ export default function TutorialsPage(): ReactNode {
         searchTerm={searchTerm}
         onSearchChange={setSearchTerm}
         categoriesWithCount={categoriesWithCount}
+        sortBy={sortBy}
+        onSortChange={setSortBy}
       />
       <main>
         <section className="container margin-vert--lg">

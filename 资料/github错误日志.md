@@ -1,3 +1,10 @@
+Annotations
+2 errors
+deploy
+Branch "master" is not allowed to deploy to github-pages due to environment protection rules.
+deploy
+The deployment was rejected or didn't satisfy other protection rules.
+
 Run npm run build
 
 > stocktokenhub@0.0.0 build
