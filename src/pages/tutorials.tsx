@@ -15,8 +15,18 @@ const categories = [
   { id: 'all', name: '全部教程', icon: '📚' },
   { id: 'tutorial', name: '教程指南', icon: '🚀' },
   { id: 'basics', name: '基础知识', icon: '📖' },
-  { id: 'trading', name: '交易平台', icon: '💱' },
+  { id: 'trading', name: '交易平台', icon: '💹' },
   { id: 'advanced', name: '高级策略', icon: '🎯' }
+];
+
+// 排序选项数据
+const sortOptions = [
+  { id: 'date-desc', name: '最新发布', icon: '📅' },
+  { id: 'date-asc', name: '最早发布', icon: '📆' },
+  { id: 'title-asc', name: '标题 A-Z', icon: '🔤' },
+  { id: 'title-desc', name: '标题 Z-A', icon: '🔡' },
+  { id: 'readTime-asc', name: '阅读时间短', icon: '⏱️' },
+  { id: 'readTime-desc', name: '阅读时间长', icon: '⏰' }
 ];
 
 // 难度映射
@@ -96,7 +106,7 @@ function CategoryFilter({ activeCategory, onCategoryChange, searchTerm, onSearch
         </div>
         
         {/* 分类过滤器和排序 */}
-        <div className={styles.filterRow}>
+        <div className={styles.filtersContainer}>
           <div className={styles.filterButtons}>
             {categoriesWithCount.map((category) => (
               <button
@@ -122,10 +132,11 @@ function CategoryFilter({ activeCategory, onCategoryChange, searchTerm, onSearch
               onChange={(e) => onSortChange(e.target.value)}
               className={styles.sortSelect}
             >
-              <option value="date-desc">最新发布</option>
-              <option value="date-asc">最早发布</option>
-              <option value="title-asc">标题 A-Z</option>
-              <option value="title-desc">标题 Z-A</option>
+              {sortOptions.map((option) => (
+                <option key={option.id} value={option.id}>
+                  {option.icon} {option.name}
+                </option>
+              ))}
             </select>
           </div>
         </div>
@@ -314,6 +325,18 @@ export default function TutorialsPage(): ReactNode {
         return filtered.sort((a, b) => a.title.localeCompare(b.title, 'zh-CN'));
       case 'title-desc':
         return filtered.sort((a, b) => b.title.localeCompare(a.title, 'zh-CN'));
+      case 'readTime-asc':
+        return filtered.sort((a, b) => {
+          const aTime = parseInt(a.readTime.replace(' min', ''));
+          const bTime = parseInt(b.readTime.replace(' min', ''));
+          return aTime - bTime;
+        });
+      case 'readTime-desc':
+        return filtered.sort((a, b) => {
+          const aTime = parseInt(a.readTime.replace(' min', ''));
+          const bTime = parseInt(b.readTime.replace(' min', ''));
+          return bTime - aTime;
+        });
       default:
         return filtered;
     }

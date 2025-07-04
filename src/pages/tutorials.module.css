@@ -139,7 +139,16 @@
   color: var(--ifm-color-emphasis-800);
 }
 
-/* Filter Row */
+/* Filters Container */
+.filtersContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* Filter Row (legacy support) */
 .filterRow {
   display: flex;
   justify-content: space-between;
