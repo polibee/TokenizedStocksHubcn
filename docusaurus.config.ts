@@ -15,15 +15,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://stocktokenhub.github.io',
+  url: 'https://zh.stocktokenhub.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'stocktokenhub', // Usually your GitHub org/user name.
-  projectName: 'stocktokenhub.github.io', // Usually your repo name.
+  organizationName: 'stocktokenhubcn', // Usually your GitHub org/user name.
+  projectName: 'TokenizedStocksHubcn.github.io', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
