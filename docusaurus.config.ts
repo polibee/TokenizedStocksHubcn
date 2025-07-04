@@ -15,15 +15,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://zh.stocktokenhub.com',
+  url: 'https://polibee.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/TokenizedStocksHubcn/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'stocktokenhubcn', // Usually your GitHub org/user name.
-  projectName: 'TokenizedStocksHubcn.github.io', // Usually your repo name.
+  organizationName: 'polibee', // Usually your GitHub org/user name.
+  projectName: 'TokenizedStocksHubcn', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
