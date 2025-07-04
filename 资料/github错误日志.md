@@ -21,21 +21,21 @@ Run npm run build
 📂 By category:
    tutorial: 1
    trading: 3
-   basics: 1
    advanced: 1
+   basics: 1
 💾 Data saved to: /home/runner/work/TokenizedStocksHubcn/TokenizedStocksHubcn/src/data/tutorials.json
 ✨ Tutorials data generation completed!
 [INFO] [en] Creating an optimized production build...
+Warning:  Tags [基础知识, 代币化股票, 区块链, DeFi, 入门教程] used in basics/tutorial-basics.md are not defined in tags.yml
+Warning:  Tags [CEX, 中心化交易所, Kraken, 代币化股票交易, 教程] used in trading/gate-xstock-list.md are not defined in tags.yml
+Warning:  Tags [CEX, 中心化交易所, Kraken, 代币化股票交易, 教程] used in trading/tutorial-cex.md are not defined in tags.yml
+Warning:  Tags [DEX, 去中心化交易所, Uniswap, Jupiter, DeFi, 教程] used in trading/tutorial-dex.md are not defined in tags.yml
 Warning:  Tags [高级策略, 套利, 流动性挖矿, 期权, 杠杆, DeFi] used in advanced/tutorial-advanced.md are not defined in tags.yml
 Warning:  Tags [教程, 代币化股票, 入门指南, 交易] used in tutorial/tutorial-intro.md are not defined in tags.yml
-Warning:  Tags [基础知识, 代币化股票, 区块链, DeFi, 入门教程] used in basics/tutorial-basics.md are not defined in tags.yml
-Warning:  Tags [CEX, 中心化交易所, Kraken, 代币化股票交易, 教程] used in trading/tutorial-cex.md are not defined in tags.yml
-Warning:  Tags [CEX, 中心化交易所, Kraken, 代币化股票交易, 教程] used in trading/gate-xstock-list.md are not defined in tags.yml
-Warning:  Tags [DEX, 去中心化交易所, Uniswap, Jupiter, DeFi, 教程] used in trading/tutorial-dex.md are not defined in tags.yml
 [info] [webpackbar] Compiling Client
 [info] [webpackbar] Compiling Server
-[success] [webpackbar] Server: Compiled with some errors in 29.90s
-[success] [webpackbar] Client: Compiled with some errors in 38.75s
+[success] [webpackbar] Server: Compiled with some errors in 27.25s
+[success] [webpackbar] Client: Compiled with some errors in 35.50s
 Error:  Client bundle compiled with errors therefore further build is impossible.
 Error: MDX compilation failed for file "/home/runner/work/TokenizedStocksHubcn/TokenizedStocksHubcn/docs/products/aaplx.md"
 Cause: Image static/img/tokens/AAPLx.svg used in docs/products/aaplx.md not found.
@@ -523,8 +523,3 @@ Details:
 Error: Image static/img/tokens/XOMx.svg used in docs/products/xomx.md not found.
     at async Promise.all (index 0)
 Error: Process completed with exit code 1.
-
-deploy
-Branch "master" is not allowed to deploy to github-pages due to environment protection rules.
-deploy
-The deployment was rejected or didn't satisfy other protection rules.
