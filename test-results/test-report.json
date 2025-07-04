@@ -1,0 +1,454 @@
+{
+  "passed": [
+    {
+      "url": "http://localhost:8080/",
+      "path": "/",
+      "status": "passed",
+      "errors": [],
+      "warnings": [],
+      "performance": {
+        "responseTime": 3,
+        "statusCode": 200,
+        "statusMessage": "OK"
+      },
+      "analysis": {
+        "issues": [],
+        "warnings": [],
+        "title": "Tokenized Stocks Hub - 代币化股票交易平台 | Tokenized Stocks Hub",
+        "contentLength": 3976
+      }
+    }
+  ],
+  "failed": [
+    {
+      "url": "http://localhost:8080/blog/basics/tutorial-basics",
+      "path": "/blog/basics/tutorial-basics",
+      "status": "failed",
+      "errors": [
+        {
+          "type": "http_error",
+          "statusCode": 404,
+          "statusMessage": "File not found"
+        },
+        {
+          "type": "content_error",
+          "message": "Page content contains error pattern: error",
+          "pattern": "error"
+        },
+        {
+          "type": "error_title",
+          "message": "Page title indicates error: Error response",
+          "title": "Error response"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "message": "Missing navigation element",
+          "element": "navigation"
+        },
+        {
+          "type": "missing_element",
+          "message": "Missing main element",
+          "element": "main"
+        },
+        {
+          "type": "missing_element",
+          "message": "Missing footer element",
+          "element": "footer"
+        }
+      ],
+      "performance": {
+        "responseTime": 2,
+        "statusCode": 404,
+        "statusMessage": "File not found"
+      },
+      "analysis": {
+        "issues": [
+          {
+            "type": "content_error",
+            "message": "Page content contains error pattern: error",
+            "pattern": "error"
+          },
+          {
+            "type": "error_title",
+            "message": "Page title indicates error: Error response",
+            "title": "Error response"
+          }
+        ],
+        "warnings": [
+          {
+            "type": "missing_element",
+            "message": "Missing navigation element",
+            "element": "navigation"
+          },
+          {
+            "type": "missing_element",
+            "message": "Missing main element",
+            "element": "main"
+          },
+          {
+            "type": "missing_element",
+            "message": "Missing footer element",
+            "element": "footer"
+          }
+        ],
+        "title": "Error response",
+        "contentLength": 140
+      }
+    },
+    {
+      "url": "http://localhost:8080/blog/trading/tutorial-cex",
+      "path": "/blog/trading/tutorial-cex",
+      "status": "failed",
+      "errors": [
+        {
+          "type": "http_error",
+          "statusCode": 404,
+          "statusMessage": "File not found"
+        },
+        {
+          "type": "content_error",
+          "message": "Page content contains error pattern: error",
+          "pattern": "error"
+        },
+        {
+          "type": "error_title",
+          "message": "Page title indicates error: Error response",
+          "title": "Error response"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "message": "Missing navigation element",
+          "element": "navigation"
+        },
+        {
+          "type": "missing_element",
+          "message": "Missing main element",
+          "element": "main"
+        },
+        {
+          "type": "missing_element",
+          "message": "Missing footer element",
+          "element": "footer"
+        }
+      ],
+      "performance": {
+        "responseTime": 2,
+        "statusCode": 404,
+        "statusMessage": "File not found"
+      },
+      "analysis": {
+        "issues": [
+          {
+            "type": "content_error",
+            "message": "Page content contains error pattern: error",
+            "pattern": "error"
+          },
+          {
+            "type": "error_title",
+            "message": "Page title indicates error: Error response",
+            "title": "Error response"
+          }
+        ],
+        "warnings": [
+          {
+            "type": "missing_element",
+            "message": "Missing navigation element",
+            "element": "navigation"
+          },
+          {
+            "type": "missing_element",
+            "message": "Missing main element",
+            "element": "main"
+          },
+          {
+            "type": "missing_element",
+            "message": "Missing footer element",
+            "element": "footer"
+          }
+        ],
+        "title": "Error response",
+        "contentLength": 140
+      }
+    },
+    {
+      "url": "http://localhost:8080/blog/trading/tutorial-dex",
+      "path": "/blog/trading/tutorial-dex",
+      "status": "failed",
+      "errors": [
+        {
+          "type": "http_error",
+          "statusCode": 404,
+          "statusMessage": "File not found"
+        },
+        {
+          "type": "content_error",
+          "message": "Page content contains error pattern: error",
+          "pattern": "error"
+        },
+        {
+          "type": "error_title",
+          "message": "Page title indicates error: Error response",
+          "title": "Error response"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "message": "Missing navigation element",
+          "element": "navigation"
+        },
+        {
+          "type": "missing_element",
+          "message": "Missing main element",
+          "element": "main"
+        },
+        {
+          "type": "missing_element",
+          "message": "Missing footer element",
+          "element": "footer"
+        }
+      ],
+      "performance": {
+        "responseTime": 2,
+        "statusCode": 404,
+        "statusMessage": "File not found"
+      },
+      "analysis": {
+        "issues": [
+          {
+            "type": "content_error",
+            "message": "Page content contains error pattern: error",
+            "pattern": "error"
+          },
+          {
+            "type": "error_title",
+            "message": "Page title indicates error: Error response",
+            "title": "Error response"
+          }
+        ],
+        "warnings": [
+          {
+            "type": "missing_element",
+            "message": "Missing navigation element",
+            "element": "navigation"
+          },
+          {
+            "type": "missing_element",
+            "message": "Missing main element",
+            "element": "main"
+          },
+          {
+            "type": "missing_element",
+            "message": "Missing footer element",
+            "element": "footer"
+          }
+        ],
+        "title": "Error response",
+        "contentLength": 140
+      }
+    },
+    {
+      "url": "http://localhost:8080/blog/advanced/tutorial-advanced",
+      "path": "/blog/advanced/tutorial-advanced",
+      "status": "failed",
+      "errors": [
+        {
+          "type": "http_error",
+          "statusCode": 404,
+          "statusMessage": "File not found"
+        },
+        {
+          "type": "content_error",
+          "message": "Page content contains error pattern: error",
+          "pattern": "error"
+        },
+        {
+          "type": "error_title",
+          "message": "Page title indicates error: Error response",
+          "title": "Error response"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "message": "Missing navigation element",
+          "element": "navigation"
+        },
+        {
+          "type": "missing_element",
+          "message": "Missing main element",
+          "element": "main"
+        },
+        {
+          "type": "missing_element",
+          "message": "Missing footer element",
+          "element": "footer"
+        }
+      ],
+      "performance": {
+        "responseTime": 2,
+        "statusCode": 404,
+        "statusMessage": "File not found"
+      },
+      "analysis": {
+        "issues": [
+          {
+            "type": "content_error",
+            "message": "Page content contains error pattern: error",
+            "pattern": "error"
+          },
+          {
+            "type": "error_title",
+            "message": "Page title indicates error: Error response",
+            "title": "Error response"
+          }
+        ],
+        "warnings": [
+          {
+            "type": "missing_element",
+            "message": "Missing navigation element",
+            "element": "navigation"
+          },
+          {
+            "type": "missing_element",
+            "message": "Missing main element",
+            "element": "main"
+          },
+          {
+            "type": "missing_element",
+            "message": "Missing footer element",
+            "element": "footer"
+          }
+        ],
+        "title": "Error response",
+        "contentLength": 140
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "url": "http://localhost:8080/blog",
+      "path": "/blog",
+      "status": "warning",
+      "errors": [],
+      "warnings": [
+        {
+          "type": "redirect",
+          "statusCode": 301,
+          "location": "/blog/"
+        }
+      ],
+      "performance": {
+        "responseTime": 2,
+        "statusCode": 301,
+        "statusMessage": "Moved Permanently"
+      },
+      "analysis": {}
+    },
+    {
+      "url": "http://localhost:8080/tutorials",
+      "path": "/tutorials",
+      "status": "warning",
+      "errors": [],
+      "warnings": [
+        {
+          "type": "redirect",
+          "statusCode": 301,
+          "location": "/tutorials/"
+        }
+      ],
+      "performance": {
+        "responseTime": 2,
+        "statusCode": 301,
+        "statusMessage": "Moved Permanently"
+      },
+      "analysis": {}
+    },
+    {
+      "url": "http://localhost:8080/platforms-compare",
+      "path": "/platforms-compare",
+      "status": "warning",
+      "errors": [],
+      "warnings": [
+        {
+          "type": "redirect",
+          "statusCode": 301,
+          "location": "/platforms-compare/"
+        }
+      ],
+      "performance": {
+        "responseTime": 2,
+        "statusCode": 301,
+        "statusMessage": "Moved Permanently"
+      },
+      "analysis": {}
+    },
+    {
+      "url": "http://localhost:8080/products-overview",
+      "path": "/products-overview",
+      "status": "warning",
+      "errors": [],
+      "warnings": [
+        {
+          "type": "redirect",
+          "statusCode": 301,
+          "location": "/products-overview/"
+        }
+      ],
+      "performance": {
+        "responseTime": 2,
+        "statusCode": 301,
+        "statusMessage": "Moved Permanently"
+      },
+      "analysis": {}
+    },
+    {
+      "url": "http://localhost:8080/compliance",
+      "path": "/compliance",
+      "status": "warning",
+      "errors": [],
+      "warnings": [
+        {
+          "type": "redirect",
+          "statusCode": 301,
+          "location": "/compliance/"
+        }
+      ],
+      "performance": {
+        "responseTime": 2,
+        "statusCode": 301,
+        "statusMessage": "Moved Permanently"
+      },
+      "analysis": {}
+    },
+    {
+      "url": "http://localhost:8080/docs/faq",
+      "path": "/docs/faq",
+      "status": "warning",
+      "errors": [],
+      "warnings": [
+        {
+          "type": "redirect",
+          "statusCode": 301,
+          "location": "/docs/faq/"
+        }
+      ],
+      "performance": {
+        "responseTime": 2,
+        "statusCode": 301,
+        "statusMessage": "Moved Permanently"
+      },
+      "analysis": {}
+    }
+  ],
+  "summary": {
+    "total": 11,
+    "passed": 1,
+    "failed": 4,
+    "warnings": 6
+  }
+}
