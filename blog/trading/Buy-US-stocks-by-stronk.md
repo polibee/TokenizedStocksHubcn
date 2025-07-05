@@ -123,8 +123,7 @@ description: 在Stronk去中心化交易所交易代币化股票的完整指南�
 
 
 可以查看官方的视频教程
-
-<div style="position:relative; width:100%; height:0px; padding-bottom:56.667%"><iframe allow="fullscreen;autoplay" allowfullscreen height="100%" src="https://streamable.com/e/l83rkf?autoplay=1" width="100%" style="border:none; width:100%; height:100%; position:absolute; left:0px; top:0px; overflow:hidden;"></iframe></div>
+https://streamable.com/l83rkf
 
 ## 💡 交易技巧
 
