@@ -112,29 +112,88 @@ const BlogPostEnhancer: React.FC<BlogPostEnhancerProps> = ({ children }) => {
         relatedPostsContainer.style.paddingTop = '2rem';
         relatedPostsContainer.style.borderTop = '1px solid var(--ifm-color-emphasis-200)';
         
-        // 添加相关文章HTML
-        relatedPostsContainer.innerHTML = `
-          <div style="margin-bottom: 2rem;">
-            <h2 style="color: var(--ifm-color-primary); margin-bottom: 1.5rem; font-size: 1.5rem;">📚 相关文章推荐</h2>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
-              ${relatedPosts.slice(0, 3).map(post => `
-                <div style="border: 1px solid var(--ifm-color-emphasis-200); border-radius: 8px; padding: 1.5rem; background: var(--ifm-background-surface-color); transition: all 0.2s ease; cursor: pointer;" 
-                     onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" 
-                     onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'" 
-                     onclick="window.location.href='${post.permalink}'">
-                  <h3 style="margin: 0 0 0.5rem 0; font-size: 1.1rem; color: var(--ifm-color-primary);">${post.title}</h3>
-                  <p style="margin: 0 0 1rem 0; color: var(--ifm-color-emphasis-700); font-size: 0.9rem; line-height: 1.4;">${post.excerpt}</p>
-                  <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.8rem; color: var(--ifm-color-emphasis-600);">
-                    <span>${post.date}</span>
-                    <div style="display: flex; gap: 0.5rem;">
-                      ${post.tags.map(tag => `<span style="background: var(--ifm-color-primary-lightest); color: var(--ifm-color-primary-dark); padding: 0.2rem 0.5rem; border-radius: 4px; font-size: 0.7rem;">${tag}</span>`).join('')}
+        // 使用 React 组件而不是 innerHTML 来避免 style 字符串问题
+        const relatedPostsElement = document.createElement('div');
+        relatedPostsElement.id = 'related-posts-react-container';
+        
+        // 创建相关文章的 React 组件
+        import('react-dom/client').then(({ createRoot }) => {
+          const root = createRoot(relatedPostsElement);
+          root.render(
+            <div style={{ marginBottom: '2rem' }}>
+              <h2 style={{ 
+                color: 'var(--ifm-color-primary)', 
+                marginBottom: '1.5rem', 
+                fontSize: '1.5rem' 
+              }}>📚 相关文章推荐</h2>
+              <div style={{ 
+                display: 'grid', 
+                gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', 
+                gap: '1.5rem' 
+              }}>
+                {relatedPosts.slice(0, 3).map((post, index) => (
+                  <div 
+                    key={index}
+                    style={{
+                      border: '1px solid var(--ifm-color-emphasis-200)',
+                      borderRadius: '8px',
+                      padding: '1.5rem',
+                      background: 'var(--ifm-background-surface-color)',
+                      transition: 'all 0.2s ease',
+                      cursor: 'pointer'
+                    }}
+                    onMouseOver={(e) => {
+                      e.currentTarget.style.transform = 'translateY(-2px)';
+                      e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.1)';
+                    }}
+                    onMouseOut={(e) => {
+                      e.currentTarget.style.transform = 'translateY(0)';
+                      e.currentTarget.style.boxShadow = 'none';
+                    }}
+                    onClick={() => window.location.href = post.permalink}
+                  >
+                    <h3 style={{
+                      margin: '0 0 0.5rem 0',
+                      fontSize: '1.1rem',
+                      color: 'var(--ifm-color-primary)'
+                    }}>{post.title}</h3>
+                    <p style={{
+                      margin: '0 0 1rem 0',
+                      color: 'var(--ifm-color-emphasis-700)',
+                      fontSize: '0.9rem',
+                      lineHeight: '1.4'
+                    }}>{post.excerpt}</p>
+                    <div style={{
+                      display: 'flex',
+                      justifyContent: 'space-between',
+                      alignItems: 'center',
+                      fontSize: '0.8rem',
+                      color: 'var(--ifm-color-emphasis-600)'
+                    }}>
+                      <span>{post.date}</span>
+                      <div style={{ display: 'flex', gap: '0.5rem' }}>
+                        {post.tags.map((tag, tagIndex) => (
+                          <span 
+                            key={tagIndex}
+                            style={{
+                              background: 'var(--ifm-color-primary-lightest)',
+                              color: 'var(--ifm-color-primary-dark)',
+                              padding: '0.2rem 0.5rem',
+                              borderRadius: '4px',
+                              fontSize: '0.7rem'
+                            }}
+                          >{tag}</span>
+                        ))}
+                      </div>
                     </div>
                   </div>
-                </div>
-              `).join('')}
+                ))}
+              </div>
             </div>
-          </div>
-        `;
+          );
+        });
+        
+        relatedPostsContainer.appendChild(relatedPostsElement);
         
         // 将相关文章容器添加到文章末尾
         articleElement.appendChild(relatedPostsContainer);

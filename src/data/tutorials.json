@@ -6,7 +6,7 @@
       "description": "在Stronk去中心化交易所交易代币化股票的完整指南，以stronk为例详细介绍整个交易流程。",
       "category": "trading",
       "difficulty": "中级",
-      "readTime": 15,
+      "readTime": 14,
       "date": "2025-07-05T07:39:54.040Z",
       "thumbnail": "/img/tutorials/cex.svg",
       "url": "/blog/Buy-US-stocks-by-stronk",
@@ -149,6 +149,6 @@
       "basics": 1,
       "advanced": 1
     },
-    "lastUpdated": "2025-07-05T08:52:34.276Z"
+    "lastUpdated": "2025-07-05T08:54:50.305Z"
   }
 }
