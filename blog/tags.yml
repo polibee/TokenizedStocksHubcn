@@ -123,3 +123,8 @@ Jupiter:
   label: Jupiter
   permalink: /jupiter
   description: Jupiter相关内容
+
+美股:
+  label: 美股
+  permalink: /us-stocks
+  description: 美股相关内容

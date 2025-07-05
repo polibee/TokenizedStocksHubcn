@@ -1,6 +1,25 @@
 {
   "tutorials": [
     {
+      "id": "trading/Buy-US-stocks-by-stronk",
+      "title": "如何在StronK购买美股股票",
+      "description": "在Stronk去中心化交易所交易代币化股票的完整指南，以stronk为例详细介绍整个交易流程。",
+      "category": "trading",
+      "difficulty": "中级",
+      "readTime": 15,
+      "date": "2025-07-05T07:39:54.040Z",
+      "thumbnail": "/img/tutorials/cex.svg",
+      "url": "/blog/Buy-US-stocks-by-stronk",
+      "tags": [
+        "美股",
+        "去中心化交易所",
+        "代币化股票交易",
+        "教程"
+      ],
+      "slug": "Buy-US-stocks-by-stronk",
+      "filePath": "trading/Buy-US-stocks-by-stronk.md"
+    },
+    {
       "id": "trading/gate-xstock-list",
       "title": "Gate上线多个链上美股交易对支持现货和1-10倍合约",
       "description": "2025年7月3日，Gate 正式宣布推出xStocks 专区，同时支持现货交易、永续合约交易及 Alpha 交易。",
@@ -123,13 +142,13 @@
     }
   ],
   "stats": {
-    "total": 6,
+    "total": 7,
     "byCategory": {
-      "trading": 3,
+      "trading": 4,
       "tutorial": 1,
       "basics": 1,
       "advanced": 1
     },
-    "lastUpdated": "2025-07-04T10:37:14.028Z"
+    "lastUpdated": "2025-07-05T08:52:34.276Z"
   }
 }
