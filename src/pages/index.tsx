@@ -31,7 +31,7 @@ function generateJupiterUrl(stock: any): string {
     return `https://jup.ag/?referrer=${jupiterAccount}`;
   }
   
-  return `https://jup.ag/swap?inputMint=${usdcMint}&outputMint=${tokenMint}&referrer=${jupiterAccount}`;
+  return `https://jup.ag/swap?sell=${usdcMint}&buy=${tokenMint}&referrer=${jupiterAccount}`;
 }
 
 // 平台对比数据
