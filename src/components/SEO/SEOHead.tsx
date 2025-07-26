@@ -66,7 +66,7 @@ const SEOHead: React.FC<SEOHeadProps> = ({
         <meta name="twitter:title" content={seoTitle} />
         <meta name="twitter:description" content={seoDescription} />
         <meta name="twitter:image" content={seoImage} />
-        <meta name="twitter:site" content="@TokenizedStocks" />
+        <meta name="twitter:site" content="@Coinowodrop" />
         
         {/* Additional Meta Tags */}
         <meta name="theme-color" content="#2e8555" />

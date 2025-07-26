@@ -79,7 +79,7 @@ const StructuredData: React.FC<StructuredDataProps> = ({
           email: 'AdamDavisme@outlook.com',
         },
         sameAs: [
-          'https://github.com/polibee/TokenizedStocksHubcn',
+          '#',
         ],
       };
     }

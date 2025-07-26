@@ -58,7 +58,7 @@ export default function CustomHead() {
           url: baseUrl,
           logo: `${baseUrl}/img/logo.svg`,
           sameAs: [
-            'https://github.com/polibee/TokenizedStocksHubcn'
+            '#'
           ],
           contactPoint: {
             '@type': 'ContactPoint',
